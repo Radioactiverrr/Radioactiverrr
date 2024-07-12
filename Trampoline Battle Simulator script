@@ -1,0 +1,5 @@
+local args = {
+    [1] = 1.05
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("Event"):WaitForChild("Train"):FireServer(unpack(args))
